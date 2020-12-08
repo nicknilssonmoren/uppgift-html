@@ -12,6 +12,15 @@
     <link href="css/bars.css" rel="stylesheet" type="text/css">
     <link href="css/nav.css" rel="stylesheet" type="text/css">
     <link href="css/nav-bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/slider.css" type="text/css" rel="stylesheet">
+    <link href="css/slider-bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/crayon.css" type="text/css" rel="stylesheet">
+    <link href="css/heading.css" type="text/css" rel="stylesheet">
+    <link href="css/heading-bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/features.css" type="text/css" rel="stylesheet">
+    <link href="css/features-bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/contact.css" type="text/css" rel="stylesheet">
+    <link href="css/contact-bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/bootstrap-overrides.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -35,12 +44,29 @@
         <!-- Navigation -->
         <nav class="d-flex flex-row max-width align-items-center justify-content-between p-3 mx-auto">
             <img src="images/logo-school.png">
-            <div class="d-none d-md-flex">Links</div>
+            <div class="d-none d-md-flex">
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center " >
+                    <i class="fa fa-home text-white shadow bg-info rounded-100 text-center nav-icon"></i>
+                <span class="text-info">Home</span></a>
+    
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                    <i class="fa fa-store text-white shadow bg-cozy rounded-100 text-center nav-icon"></i>
+                <span class="text-cozy">Store</span></a>
+    
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                    <i class="fa fa-user-graduate text-white shadow bg-success rounded-100 text-center nav-icon"></i>
+                <span class="text-success">Courses</span></a>
+    
+                <a href="#" class="d-flex flex-column text-decoration-none align-items-center ml-5" >
+                    <i class="fa fa-blog text-white shadow bg-warning rounded-100 text-center nav-icon"></i>
+                <span class="text-warning">Blog</span></a>
+            </div>
             <div>
-                <button class="btn btn-cozy">
+                <button class="btn btn-cozy py-2 mr-2 position-relative">
                     <i class="fa fa-shopping-basket text-white"></i>
+                    <span class="badge bg-success rounded-100 btn-badge text-white border border-white position-absolute">3</span>
                 </button>
-                <button class="btn btn-info d-md-none">
+                <button class="btn btn-info d-md-none py-2">
                     <i class="fa fa-bars text-white"></i>
                 </button>
             </div>
@@ -62,7 +88,161 @@
                     <div class="col bar-height bg-primary d-none d-md-block"></div>
                     <div class="col bar-height bg-cozy d-none d-md-block"></div>
                 </div>
+
+        <div class="d-md-none d-block mx-3">
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom" >
+                <i class="fa fa-home text-white shadow bg-info rounded-100 text-center nav-icon"></i>
+            <span class="text-info mr-2">Home</span></a>
+
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom" >
+                <i class="fa fa-store text-white shadow bg-cozy rounded-100 text-center nav-icon"></i>
+            <span class="text-cozy mr-2">Store</span></a>
+
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom" >
+                <i class="fa fa-user-graduate text-white shadow bg-success rounded-100 text-center nav-icon"></i>
+            <span class="text-success mr-2">Courses</span></a>
+
+            <a href="#" class="d-flex flex-row-reverse text-decoration-none align-items-center p-3 border-bottom" >
+                <i class="fa fa-blog text-white shadow bg-warning rounded-100 text-center nav-icon"></i>
+            <span class="text-warning mr-2">Blog</span></a>
+            
+                
+        </div>
     </header>
-    
+    <!-- TOP SLIDER */ -->
+    <section id="slider" class="d-flex flex-row align-items-center justify-content-center slider-image-1 slider slider-img slider-fade">
+        <div class="d-flex flex-column text-white text-center">
+            <h1 class="my-0">School Website</h1>
+            <div>Lorem ipsum dolor sit amet, adipiscing elit. John 4:11  </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+        <!--Features heading-->
+        <div class="d-flex flex-row justify-content-center align-items-center mt-5 mb-4">
+        <div class="crayon" style="--crayon-color: #b5d56a; --crayon-paper-color: #e4f0cc; --; --crayon-line-color: #b5d56a;"></div>
+
+            <div class="text-cozy heading-font display-7 mx-3">Our Features</div>
+
+        <div class="crayon" style="--crayon-color: #b5d56a; --crayon-paper-color: #e4f0cc; --; --crayon-line-color: #b5d56a;"></div>
+    </div>
+
+    <!-- Feature list-->
+    <div id="feature-list" class="d-flex flex-column justify-content-center mx-auto">
+        <div class="d-flex flex-column px-3">
+            <!--Feature-->
+            <div class="d-flex flex-row mb-5">
+
+                <!--Circle and Icon-->
+                <div class="mr-3">
+                    <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-cozy">
+                        <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                    </div>
+                </div>
+                <!-- Heading and Text-->
+                <div class="d-flex flex-column">
+                    <div class="display-8 text-cozy heading-font">Expereienced Teachers</div>
+                    <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                </div>
+            </div>
+            <!--Feature-->
+            <div class="d-flex flex-row mb-5">
+
+                    <!--Circle and Icon-->
+                    <div class="mr-3">
+                        <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-info">
+                            <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                        </div>
+                    </div>
+                    <!-- Heading and Text-->
+                    <div class="d-flex flex-column">
+                        <div class="display-8 text-info heading-font">Expereienced Teachers</div>
+                        <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                    </div>
+            </div>
+            <!--Feature-->
+            <div class="d-flex flex-row mb-5">
+
+                            <!--Circle and Icon-->
+                            <div class="mr-3">
+                                <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-primary">
+                                    <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                                </div>
+                            </div>
+                            <!-- Heading and Text-->
+                            <div class="d-flex flex-column">
+                                <div class="display-8 text-primary heading-font">Expereienced Teachers</div>
+                                <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                            </div>
+            </div>    
+            
+        </div>
+        <div class="d-flex flex-column px-3">
+                        <!--Feature-->
+                        <div class="d-flex flex-row mb-5">
+
+                            <!--Circle and Icon-->
+                            <div class="mr-3">
+                                <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-warning">
+                                    <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                                </div>
+                            </div>
+                            <!-- Heading and Text-->
+                            <div class="d-flex flex-column">
+                                <div class="display-8 text-warning heading-font">Expereienced Teachers</div>
+                                <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                            </div>
+                        </div>
+                        <!--Feature-->
+                        <div class="d-flex flex-row mb-5">
+            
+                                <!--Circle and Icon-->
+                                <div class="mr-3">
+                                    <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-danger">
+                                        <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                                    </div>
+                                </div>
+                                <!-- Heading and Text-->
+                                <div class="d-flex flex-column">
+                                    <div class="display-8 text-danger heading-font">Expereienced Teachers</div>
+                                    <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                                </div>
+                        </div>
+                        <!--Feature-->
+                        <div class="d-flex flex-row mb-5">
+            
+                                        <!--Circle and Icon-->
+                                        <div class="mr-3">
+                                            <div class="d-flex flex-column justify-content-center align-items-center circle-lg bg-success">
+                                                <i class="fa fa-graduation-cap rounded-circle text-center text-white border-white border-2 border-lg icon-lg-lh icon-lg"></i>
+                                            </div>
+                                        </div>
+                                        <!-- Heading and Text-->
+                                        <div class="d-flex flex-column">
+                                            <div class="display-8 text-success heading-font">Expereienced Teachers</div>
+                                            <div>All our teachers have more than 20+ years of experience working with kids between the age of 6-14.</div>
+                                        </div>
+                        </div>    
+
+        </div>
+    </div>
+
+
+</section>
+
+<section id="contact" class="p-5 bg-primary">
+    <div class="d-flex flex-column justify-content-center align-items-center text-center">
+        <div class="display-6 text-white heading-font mb-3">Need more information?</div>
+        <div class="display-9 text-white mb-4">Call us! Open all weekdays between 8AM-5PM.</div>
+        <button class="btn btn-danger rounded-0 text-white p-3">
+            <i class="fa fa-phone mr-2" aria-hidden="true"></i>
+            CONTACT
+        </button>
+    </div>
+</section>
+
+    <!-- <script src="js/slider.js"></script> -->
 </body>
 </html>

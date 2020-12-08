@@ -4,14 +4,26 @@
     .d-md-flex { display: flex !important;}
     .d-md-none { display: none !important;}
 }
+.d-block { display: block !important; }
 
-.justify-content-between { justify-content: space-between !important;}
-.align-items-center { align-items: center !important;}
+.justify-content-between { justify-content: space-between !important; }
+.align-items-center { align-items: center !important; }
+.flex-row-reverse { flex-direction: row-reverse !important; }
 
 .p-3 {padding:1rem !important;}
 
-.mr-auto, .mx-auto { margin-right: auto !important;}
-.ml-auto, .mx-auto { margin-left: auto !important;}
+.flex-column { flex-direction: column !important; }
+
+/* Margin */
+.mr-auto, .mx-auto { margin-right: auto !important; }
+.ml-auto, .mx-auto { margin-left: auto !important; }
+.mr-2, .mx-2 { margin-right: .5rem !important; }
+.ml-2, .mx-2 { margin-left: .5rem !important; }
+.mr-3, .mx-3 { margin-right: 1rem !important; }
+.ml-3, .mx-3 { margin-left: 1rem !important; }
+.mr-5, .mx-5 { margin-right: 3rem !important; }
+.ml-5, .mx-5 { margin-left: 3rem !important; }
+
 
 /* Buttons */
 .btn {
@@ -24,5 +36,30 @@
     line-height: 1.5;
 }
 
+/* Padding */
+.p-3 { padding:1rem !important;}
+.pb-2, .py-2 { padding-bottom: .5rem !important;}
+.pt-2, .py-2 { padding-top: .5rem !important;}
+
+/* Badges */
+.badge {
+    display: inline-block;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+}
+
+/* Border */
+.border {border: 1px solid #dee2e6 !important;}
+.border-bottom { border-bottom:1px solid #dee2e6 !important;}
+
+/* Position */
+.position-relative { position: relative !important;}
+.position-absolute { position: absolute !important;}
+
+/* LINKS */
+.text-decoration-none {text-decoration: none !important;}
+
+.text-center { text-align: center !important; }
 
 
