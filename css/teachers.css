@@ -1,0 +1,5 @@
+.avatar-size { width: 150px; height: 150px; }
+
+@media (min-width: 1200px){
+    #teachers .image-container {flex-direction: row !important;}
+}
